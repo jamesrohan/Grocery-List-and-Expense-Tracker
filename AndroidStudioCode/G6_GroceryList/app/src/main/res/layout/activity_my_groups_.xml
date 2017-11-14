@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.gsu_g6.g6_grocerylist.MyLists_Activity">
+    tools:context="com.example.gsu_g6.g6_grocerylist.MyGroups_Activity">
 
 
     <LinearLayout
@@ -22,7 +22,7 @@
 
 
             <ListView
-                android:id="@+id/List_MyLists1"
+                android:id="@+id/List_MyLists2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
@@ -39,14 +39,14 @@
             tools:layout_editor_absoluteY="8dp">
 
             <Button
-                android:id="@+id/Button_AddList1"
+                android:id="@+id/Button_AddList2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Add List" />
 
             <Button
-                android:id="@+id/Button_OpenGroups1"
+                android:id="@+id/Button_OpenGroups2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -54,6 +54,7 @@
 
         </LinearLayout>
     </LinearLayout>
+
 
 
 </android.support.constraint.ConstraintLayout>
