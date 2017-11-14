@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">G6_GroceryList</string>
-    <string name="title_activity_list">User Lists</string>
+    <string name="title_activity_my_lists_">User Lists</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_my_groups">MyGroups</string>
 </resources>
