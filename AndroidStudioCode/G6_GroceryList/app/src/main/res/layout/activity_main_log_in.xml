@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.gsu_g6.g6_grocerylist.MainLogIn_Activity">
+    tools:context="com.example.gsu_g6.g6_grocerylist.MainLogInActivity">
 
     <LinearLayout
         android:layout_width="368dp"
@@ -49,7 +49,8 @@
             android:id="@+id/button_SignIn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Sign In" />
+            android:text="Sign In"
+            android:onClick="toTabs" />
 
         <Button
             android:id="@+id/button_SignUp"

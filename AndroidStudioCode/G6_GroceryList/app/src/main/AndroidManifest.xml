@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainLogIn_Activity">
+        <activity android:name=".MainLogInActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,7 +17,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".MyLists_Activity" />
-        <activity android:name=".MyGroups_Activity"></activity>
+        <activity
+            android:name=".MainTabedActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"></activity>
     </application>
 
 </manifest>
