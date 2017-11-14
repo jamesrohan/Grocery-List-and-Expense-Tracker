@@ -1,12 +1,13 @@
 package com.example.gsu_g6.g6_grocerylist;
 
+import android.app.ListActivity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MyLists_Activity extends AppCompatActivity {
+public class MyLists_Activity extends ListActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
